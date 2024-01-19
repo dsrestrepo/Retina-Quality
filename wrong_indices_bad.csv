@@ -1,0 +1,15 @@
+DR_ICDR,,image_id,patient_id,camera,patient_age,comorbidities,diabetes_time_y,insuline,patient_sex,exam_eye,diabetes,nationality,optic_disc,vessels,macula,DR_SDRG,DR_ICDR,focus,iluminaton,image_field,artifacts,diabetic_retinopathy,macular_edema,scar,nevus,amd,vascular_occlusion,hypertensive_retinopathy,drusens,hemorrhage,retinal_detachment,myopic_fundus,increased_cup_disc,other,quality
+0,12568,img12569,6613,Canon CR,78.0,SAH,,,2,2,no,Brazil,1,1,2,0,0,1,1,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Inadequate
+0,6936,img06937,3648,NIKON NF5050,,,,,2,1,no,Brazil,1,1,1,0,0,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+0,9037,img09038,4747,Canon CR,71.0,diabetes,20,no,2,2,yes,Brazil,1,1,1,0,0,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+0,6900,img06901,3628,NIKON NF5050,,,,,2,1,no,Brazil,1,1,2,0,0,1,1,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Inadequate
+0,7566,img07567,3976,NIKON NF5050,,,,,2,1,no,Brazil,1,1,2,0,0,1,1,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Inadequate
+1,10109,img10110,5308,NIKON NF5050,57.0,diabetes,,,2,2,yes,Brazil,1,1,2,2,1,1,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+1,3037,img03038,1607,NIKON NF5050,,,,,1,1,no,Brazil,1,1,2,1,1,1,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+1,6247,img06248,3288,Canon CR,65.0,SAH,,,1,1,no,Brazil,1,1,1,1,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+2,7071,img07072,3720,Canon CR,70.0,"diabetes, SAH",10,no,2,2,yes,Brazil,1,1,2,2,2,1,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+2,1375,img01376,719,NIKON NF5050,72.0,,,,2,1,no,Brazil,1,2,2,3,2,1,2,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Inadequate
+2,3708,img03709,1969,NIKON NF5050,,,,,1,2,no,Brazil,2,1,2,2,2,1,1,2,1,1,1,0,0,0,0,0,0,0,0,0,1,0,Inadequate
+3,1026,img01027,533,Canon CR,66.0,"diabetes, SAH",12,no,1,2,yes,Brazil,1,1,2,3,3,1,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+4,10263,img10264,5386,NIKON NF5050,,,,,1,2,no,Brazil,1,1,2,4,4,1,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate
+4,5795,img05796,3050,NIKON NF5050,60.0,diabetes,,,2,2,yes,Brazil,1,1,2,4,4,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate

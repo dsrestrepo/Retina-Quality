@@ -153,9 +153,8 @@ class BinaryBRSETDataset(Dataset):
             #transforms.Normalize(mean=[0.5896205017400412, 0.29888971649817453, 0.1107679405196557], std=[0.28544273712830986, 0.15905456049750208, 0.07012281660980953])
         ])
         self.label_col = label_col
-        self.labels = self.dataframe[self.label_col].values
+        self.labels = self.dataframe[self.label_col].values.astype(np.float32)
         self.labels = np.expand_dims(self.labels, axis=1)
-
     def __len__(self):
         return len(self.dataframe)
 

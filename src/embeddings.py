@@ -505,8 +505,6 @@ def test_model(X_test, y_test, model):
     wrong_indices = wrong_predictions[wrong_predictions].index
     
     
-    
-    
 
     # Confusion matrix
     # Create a confusion matrix of the test predictions

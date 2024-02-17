@@ -3,7 +3,7 @@ import numpy as np
 import SimpleITK as sitk
 import six
 import pandas as pd
-from radiomics import firstorder, glcm, glrlm, glszm
+from radiomics import firstorder, glcm, glrlm, glszm, gldm, ngtdm
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import accuracy_score
@@ -58,6 +58,25 @@ def calculateRadiomics(image, radiomics_setting, verbose=False):
     glszmFeatures = glszm.RadiomicsGLSZM(image, mask, **radiomics_setting)
     glszmFeatures.enableAllFeatures()
     results = glszmFeatures.execute()
+    for key, val in six.iteritems(results):
+        feature_ls[key] = val
+        
+    
+    # GLDM features
+    if verbose:
+        print("Calculating GLDM features...")
+    gldmFeatures = gldm.RadiomicsGLDM(image, mask, **radiomics_setting)
+    gldmFeatures.enableAllFeatures()
+    results = gldmFeatures.execute()
+    for key, val in six.iteritems(results):
+        feature_ls[key] = val
+
+    # NGTDM features
+    if verbose:
+        print("Calculating NGTDM features...")
+    ngtdmFeatures = ngtdm.RadiomicsNGTDM(image, mask, **radiomics_setting)
+    ngtdmFeatures.enableAllFeatures()
+    results = ngtdmFeatures.execute()
     for key, val in six.iteritems(results):
         feature_ls[key] = val
 

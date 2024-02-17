@@ -1,26 +1,6 @@
 DR_ICDR,,image_id,patient_id,camera,patient_age,comorbidities,diabetes_time_y,insuline,patient_sex,exam_eye,diabetes,nationality,optic_disc,vessels,macula,DR_SDRG,DR_ICDR,focus,iluminaton,image_field,artifacts,diabetic_retinopathy,macular_edema,scar,nevus,amd,vascular_occlusion,hypertensive_retinopathy,drusens,hemorrhage,retinal_detachment,myopic_fundus,increased_cup_disc,other,quality
-0,4425,img04426,2348,NIKON NF5050,65.0,SAH,,,1,2,no,Brazil,1,1,2,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Adequate
-0,16227,img16228,8505,Canon CR,17.0,diabetes1,1,yes,1,2,yes,Brazil,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-0,4965,img04966,2623,Canon CR,95.0,SAH,,,2,2,no,Brazil,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Adequate
-0,9195,img09196,4830,Canon CR,67.0,SAH,,,2,1,no,Brazil,1,1,2,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Adequate
-0,13036,img13037,6858,NIKON NF5050,,,,,1,2,no,Brazil,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-1,3177,img03178,1686,NIKON NF5050,,,,,2,2,no,Brazil,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-1,2218,img02219,1171,Canon CR,77.0,diabetes,30,no,2,2,yes,Brazil,1,1,2,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-1,2929,img02930,1549,Canon CR,68.0,,,,1,1,no,Brazil,1,1,2,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,Adequate
-1,2566,img02567,1351,Canon CR,79.0,diabetes,25,yes,1,1,yes,Brazil,2,1,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,Adequate
-1,12132,img12133,6383,Canon CR,59.0,diabetes,10,yes,2,1,yes,Brazil,1,1,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-2,4243,img04244,2251,NIKON NF5050,,,,,2,1,no,Brazil,1,1,2,1,2,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,Adequate
-2,10640,img10641,5583,Canon CR,81.0,"diabetes, SAH",,,1,1,yes,Brazil,1,1,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-2,14745,img14746,7736,Canon CR,63.0,diabetes,25,no,2,2,yes,Brazil,1,1,2,1,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-2,10600,img10601,5562,Canon CR,69.0,diabetes,,no,1,2,yes,Brazil,1,1,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-2,1904,img01905,1005,NIKON NF5050,,,,,1,2,no,Brazil,1,1,2,3,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-3,2849,img02850,1505,NIKON NF5050,71.0,,,,1,1,no,Brazil,1,1,2,3,3,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-3,16230,img16231,8507,Canon CR,28.0,diabetes1,14,yes,1,1,yes,Brazil,1,1,1,4,3,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-3,10603,img10604,5564,Canon CR,72.0,"diabetes, SAH",,no,1,1,yes,Brazil,1,1,2,3,3,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-3,9432,img09433,4953,NIKON NF5050,,,,,1,1,no,Brazil,1,1,2,3,3,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-3,12989,img12990,6833,Canon CR,66.0,"diabetes, SAH",5,yes,2,1,yes,Brazil,1,1,2,3,3,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-4,9848,img09849,5172,NIKON NF5050,,,,,1,2,no,Brazil,1,2,2,4,4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-4,14357,img14358,7540,Canon CR,,,,,2,1,no,Brazil,1,2,2,4,4,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-4,11181,img11182,5877,NIKON NF5050,,,,,1,1,no,Brazil,1,2,2,4,4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
-4,13011,img13012,6844,NIKON NF5050,,,,,1,1,no,Brazil,1,1,2,4,4,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Adequate
-4,1925,img01926,1016,Canon CR,87.0,diabetes,40,yes,2,1,yes,Brazil,1,1,2,4,4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Adequate
+0,4544,img04545,2408,NIKON NF5050,,,,,2,2,no,Brazil,1,1,1,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,Inadequate
+0,4544,img04545,2408,NIKON NF5050,,,,,2,2,no,Brazil,1,1,1,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,Inadequate
+0,6013,img06014,3164,NIKON NF5050,,,,,1,2,no,Brazil,1,1,2,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,Inadequate
+0,11978,img11979,6303,Canon CR,15.0,0,,,1,2,no,Brazil,2,1,1,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,1,0,Inadequate
+0,7657,img07658,4022,NIKON NF5050,,,,,1,2,no,Brazil,1,1,1,0,0,1,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Inadequate

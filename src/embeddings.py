@@ -238,6 +238,18 @@ def load_data(labels_path='data/labels.csv', backbone='dinov2_large', label='dia
     # Merge
     df = brset_df.merge(df, on='image_id')
     
+    # remove image field of quiality: quality == 'Adequate if 'focus', 'iluminaton', 'artifacts' == 2; quality = 'Inadequate if 'focus', 'iluminaton', 'artifacts' == 1
+    df['quality'] = df.apply(lambda x: 'Adequate' if (x['focus'] == 1) or (x['iluminaton'] == 1) or (x['artifacts'] == 1) else 'Inadequate', axis=1)
+    
+    if quality == 'focus':
+        df['quality'] = df.apply(lambda x: 'Adequate' if (x['focus'] == 1) else 'Inadequate', axis=1)
+    elif quality == 'iluminaton':
+        df['quality'] = df.apply(lambda x: 'Adequate' if (x['iluminaton'] == 1) else 'Inadequate', axis=1)
+    elif quality == 'artifacts':
+        df['quality'] = df.apply(lambda x: 'Adequate' if (x['artifacts'] == 1) else 'Inadequate', axis=1)
+        
+    
+    
     if quality:
         df_quality = df[df['quality'] == 'Adequate']
         df_bad_quality = df[df['quality'] == 'Inadequate']
@@ -338,7 +350,7 @@ def split_dataset(X, y, test_size=0.3, random_state=1, plot=True):
     """
     
     # Split the data into training and testing sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state, stratify=y)
     
     print(f"Training set size is: {len(X_train)} rows and {X_train.shape[1]} columns")
     print(f"Test set size is: {len(X_test)} rows and {X_test.shape[1]} columns")
@@ -351,7 +363,12 @@ def split_dataset(X, y, test_size=0.3, random_state=1, plot=True):
 
         # Get the unique class labels
         unique_labels = np.unique(np.concatenate((y_train, y_test)))
-
+        
+        if len(unique_labels) != len(train_class_counts):
+            print('There are missing classes in the training set')
+            print('Available classes:', unique_labels)
+            return None, None, None, None
+        
         # Create bar plots to visualize class distribution
         plt.figure(figsize=(10, 5))
         plt.subplot(1, 2, 1)
